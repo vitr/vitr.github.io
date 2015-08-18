@@ -3,6 +3,7 @@
 .AppleDouble
 .LSOverride
 
+
 # Icon must end with two \r
 Icon
 
@@ -26,3 +27,6 @@ _site/
 
 # Ruby
 Gemfile.lock
+
+#IDE specific
+.idea/
