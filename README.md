@@ -5,4 +5,4 @@ Irregular notes about stuff.
 
 ## Contact
 tweet me [@_vitr_](http://www.twitter.com/vitonline) or email me
-[vit@vitr.website](mailto:vit@vitr.website)
+[vit@fastmail.com](mailto:vit@fastmail.com)
