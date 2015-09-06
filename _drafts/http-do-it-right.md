@@ -110,7 +110,8 @@ http://nyashnye-kotiki.xxx/breeds/maine-coon/?deliver_to=Moscow#photo
                 
 ### #15 Conclusion 
 
-Everything above exists in RFC's and other standards as recommendations. It doesn't force anyone to follow the recommendations.
+Everything above exists in RFC's and other standards as recommendations. It doesn't force anyone to follow the recommendations. Everyone is free to build their API's even upon only GET requests, as long as their services work.
+
 
 Всё описанное выше существует в стандартах исключительно в форме рекомендации, и принудить кого-либо к строгому исполнению этих рекомендаций нельзя. 
 
