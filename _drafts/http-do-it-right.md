@@ -26,7 +26,7 @@ Why POST? This is explained in Using http verbs
 
 Scheme   Host      Path        Query        Fragment
   ↓        ↓         ↓            ↓             ↓
-http://cars.com/makes/bmw/?deliver_to=Albion#photo
+http://cars.com/make/bmw/?deliver_to=Albion#photo
 
 If you have a car catalogue by makes, logically you can structure it by path, as a car can belong to only one make. However, you can deliver a car to multiple places, so, the "deliver to X" filter is better to organise by query string.
 
