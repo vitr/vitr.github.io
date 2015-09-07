@@ -12,7 +12,7 @@ tags:
   - to
   - carte
   - noire
-published: true
+published: false
 ---
 
 
@@ -32,4 +32,4 @@ Reading code and data is nothing like reading a book. We rarely start at the beg
 And this is what Input can help make possible. We’ll need some help from source code editors and word processors in order to make it all accessible, but a flexible, customizable font family is a good start.
 
 By mixing typographic variation with the power of syntax highlighting, by composing text that transcends a fixed-width grid, and by choosing and combining multiple font styles, we can end all up with code and data that is ultimately easier to read and write.
-![Input Font Download Options]({{site.baseurl}}/_drafts/Image%201.png)
+![Input Font Download Options]({{site.baseurl}}/images/sublime-text-customization/Image1.png)
