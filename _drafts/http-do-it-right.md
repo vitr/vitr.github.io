@@ -2,8 +2,8 @@
 layout:     post
 title:      HTTP do it right
 date:       2015-09-03 15:31:19
-author:     Jacob Tomlinson
-summary:    Carte Noire is a dark blog theme for Jekyll focusing on a clear reading experience.
+author:     Vitaliy Ryepnoy
+summary:    HTTP and REST tips.
 categories: jekyll
 thumbnail:  heart
 tags:
