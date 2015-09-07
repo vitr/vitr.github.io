@@ -44,6 +44,7 @@ PUT threads/dealer/messages/100500
 If you accidentally (or because of network issues) call POST twice, it  will create the same message with different ids. PUT may be called multiple times with no consequences.  In other words, PUT method is idempotent.  Using idempotent PUT may lead to another issues, like conflict resolution, but developers can resolve these issues in the code and the end result will be safer and more reliable.
 PUT could be used for both creation and updating. However, for updating you should provide the resource full data. If you need a partial update, the PATCH method should be used instead. PATCH is non-cacheable, non-safe and non-idempotent.
 http://programmers.stackexchange.com/questions/260818/why-patch-method-is-not-idempotent
+It's hard to find network intermediaries without PUT/PATCH/DELETE support nowadays (2015). Nevertheless,  if you face such, use GET/POST (for reading/writing operations) and pass the real method in X-HTTP-Method header.
 
 
 Response codes
@@ -84,6 +85,7 @@ Everything above exists in RFC's and other standards as recommendations. You may
 http://www.rfc-editor.org/rfc/rfc2616.txt
 http://tools.ietf.org/html/rfc5789
 http://www.w3.org/TR/webarch
+
 http://w3ctag.github.io/capability-urls
 
 
