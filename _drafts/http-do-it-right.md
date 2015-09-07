@@ -4,7 +4,9 @@ title:      HTTP do it right
 date:       2015-09-03 15:31:19
 author:     Vitaliy Ryepnoy
 summary:    HTTP and REST tips.
-categories: jekyll
+categories: 
+ - http
+ - rest
 thumbnail:  heart
 tags:
  - welcome
@@ -12,7 +14,6 @@ tags:
  - carte
  - noire
 ---
-
 
 Organising endpoints
 URLs identify resources, resources are some entities. A file is a resource, a user is a resource. Calling a method isn't a resource.
@@ -45,6 +46,7 @@ If you accidentally (or because of network issues) call POST twice, it  will cre
 PUT could be used for both creation and updating. However, for updating you should provide the resource full data. If you need a partial update, the PATCH method should be used instead. PATCH is non-cacheable, non-safe and non-idempotent.
 http://programmers.stackexchange.com/questions/260818/why-patch-method-is-not-idempotent
 It's hard to find network intermediaries without PUT/PATCH/DELETE support nowadays (2015). Nevertheless,  if you face such, use GET/POST (for reading/writing operations) and pass the real method in X-HTTP-Method header.
+http://www.hanselman.com/blog/HTTPPUTOrDELETENotAllowedUseXHTTPMethodOverrideForYourRESTServiceWithASPNETWebAPI.aspx
 
 
 Response codes
@@ -85,7 +87,6 @@ Everything above exists in RFC's and other standards as recommendations. You may
 http://www.rfc-editor.org/rfc/rfc2616.txt
 http://tools.ietf.org/html/rfc5789
 http://www.w3.org/TR/webarch
-
 http://w3ctag.github.io/capability-urls
 
 
