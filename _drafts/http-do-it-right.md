@@ -14,15 +14,14 @@ tags:
 ---
 
 
-
-
 Organising endpoints
 URLs identify resources, resources are some entities. A file is a resource, a user is a resource. Calling a method isn't a resource.
 If you want to wash your car don't do it like this
 GET /?method=wash&target=mycar - WRONG
 Better create a washer resource
 POST /washer/?target=mycar
-Why POST? This is explained in Using http verbs
+Why POST? Because, first of all, GET is safe method and designed just to represent resources, not to change them. Secondly, GET response could be cached, so, the really action hasn't been performed.
+This is explained in Using http verbs section
 
 Scheme   Host      Path        Query        Fragment
   ↓        ↓         ↓            ↓             ↓
@@ -64,7 +63,8 @@ Common misunderstandings
 410 Gone - resource deleted  or 400 - general status
 
 Capability URL
-This is a special subclass of URLs. They contain both a resource and its action. Example - password recovery, direct links to 'secret' pdf reports. Some security measures for using such urls
+Capability URLs grant access to a resource to anyone who has the URL. There are particular application design patterns for which this is useful as they remove the necessity for users to log in to a site and are easily delegated to others. But their use can open up some security issues. URLs are not generally required to be kept secret, and there are various routes through which capability URLs can leak into unintended hands
+This is a special subclass of URLs. They contain both a resource and its action. Example - password recovery, direct links to 'secret' pdf reports. Some security measures for using such URLs
 	- Strong random generator (UUID 4)
 	- HTTPS
 	- Pages available via capability URL (the 'secret' pages) should be excluded from search engines indexing
@@ -81,11 +81,10 @@ The secret pages should be protected at maximum:
 Conclusion, final thoughts about RFC's
 Everything above exists in RFC's and other standards as recommendations. You may or may not follow the recommendations, but just keep in mind that many other network agents live between your service and your clients. Most of them follow RFC in their HTTP protocol implementation. So, if you break the recommendations in your applications, you'll be responsible for consequences, but the most important point here is that even if you communicate in isolated environment, how are you going to explain all non-standard behaviour to your colleagues? In fact, you'll be creating your own HTTP dialect, which at least should be documented properly.
 
-www.rfc-editor.org/rfc/rfc2616.txt
+http://www.rfc-editor.org/rfc/rfc2616.txt
 http://tools.ietf.org/html/rfc5789
 http://www.w3.org/TR/webarch
 http://w3ctag.github.io/capability-urls
-
 
 
 ### #1 http resource is a noun not a verb
