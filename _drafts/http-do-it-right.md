@@ -13,6 +13,81 @@ tags:
  - noire
 ---
 
+
+
+
+Organising endpoints
+URLs identify resources, resources are some entities. A file is a resource, a user is a resource. Calling a method isn't a resource.
+If you want to wash your car don't do it like this
+GET /?method=wash&target=mycar - WRONG
+Better create a washer resource
+POST /washer/?target=mycar
+Why POST? This is explained in Using http verbs
+
+Scheme   Host      Path        Query        Fragment
+  ↓        ↓         ↓            ↓             ↓
+http://cars.com/makes/bmw/?deliver_to=Albion#photo
+
+If you have a car catalogue by makes, logically you can structure it by path, as a car can belong to only one make. However, you can deliver a car to multiple places, so, the "deliver to X" filter is better to organise by query string.
+
+Using http verbs
+HTTP call means applying a verb to URL. The result of this should be what a verb is saying, e.g. GET returns a representation of a resource, DELETE deletes it, etc.
+Methods GET, HEAD, OPTIONS are safe, assuming, they don’t change the state of resources. Many applications, like link pre-fetchers in browsers or messengers feel free to visit such URLs without asking an end-user.
+Methods GET and HEAD are cacheable by default. OPTIONS, POST, PUT, PATCH, DELETE are not. So, if you perform
+POST /washer/?target=mycar
+You will be (almost) sure that the request will be performed, but if you perform a GET method, some intermediate proxy can decide to return a cached result and the car won't be washed in reality.
+Methods GET, PUT, DELETE are symmetrical. PUT creates or updates a resource, GET returns the resource representation, DELETE deletes it.
+Method HEAD is a synonym of GET, but returns only headers (resource's metadata), without a body.
+POST is used when if you don't have an URL of the resource. Example post a new message on forum
+POST threads/dealer/messages
+But if the client is allowed to generate messages ids, then the PUT method should be called
+PUT threads/dealer/messages/100500
+If you accidentally (or because of network issues) call POST twice, it  will create the same message with different ids. PUT may be called multiple times with no consequences.  In other words, PUT method is idempotent.  Using idempotent PUT may lead to another issues, like conflict resolution, but developers can resolve these issues in the code and the end result will be safer and more reliable.
+PUT could be used for both creation and updating. However, for updating you should provide the resource full data. If you need a partial update, the PATCH method should be used instead. PATCH is non-cacheable, non-safe and non-idempotent.
+http://programmers.stackexchange.com/questions/260818/why-patch-method-is-not-idempotent
+
+
+Response codes
+The response codes give hints to a client what to do next.
+3xx - extra action should be performed
+4xx - client error, client request is incorrect. It's recommended to include a particular error explanation to the response
+5xx - server error, client request is correct
+Successful response codes
+GET - 200
+PUT - 201 if resource created or 200  if resource updated
+POST - 200 or 201 (with URL of created resource)
+
+Common misunderstandings
+401 Unauthorized must be accompanied with WWW- Authenticate header, therefore, must be used only with HTTP authentication, in other cases use 403 Forbidden.
+3xx status codes are not only redirects, they indicate that a client must perform a additional action, e.g. 304 Not Modified - get the actual resource version from cache.
+404 one of not many you can call again. It means that the resource isn't present at the moment, but could be in the future. 404 is a status of uncertainness, when we don't want to reveal the actual error. If we want to give a hint we should use
+410 Gone - resource deleted  or 400 - general status
+
+Capability URL
+This is a special subclass of URLs. They contain both a resource and its action. Example - password recovery, direct links to 'secret' pdf reports. Some security measures for using such urls
+	- Strong random generator (UUID 4)
+	- HTTPS
+	- Pages available via capability URL (the 'secret' pages) should be excluded from search engines indexing
+The damage control
+	- Revoking capability URLs, e.g. after sharing a document make possible to hide it again
+	- Expiration time must be shorter for more important links
+The secret pages should be protected at maximum:
+	- No third-party content (scripts, images, etc.)
+	- No links to third-party sites (hide referral if the links are needed)
+	- Change the URL via History API right after visiting a page in a browser (no one can see the actual url)
+	- Any input should be confirmed by user action via CSRF token signed form (this disables browser's auto fill feature)
+
+
+Conclusion, final thoughts about RFC's
+Everything above exists in RFC's and other standards as recommendations. You may or may not follow the recommendations, but just keep in mind that many other network agents live between your service and your clients. Most of them follow RFC in their HTTP protocol implementation. So, if you break the recommendations in your applications, you'll be responsible for consequences, but the most important point here is that even if you communicate in isolated environment, how are you going to explain all non-standard behaviour to your colleagues? In fact, you'll be creating your own HTTP dialect, which at least should be documented properly.
+
+www.rfc-editor.org/rfc/rfc2616.txt
+http://tools.ietf.org/html/rfc5789
+http://www.w3.org/TR/webarch
+http://w3ctag.github.io/capability-urls
+
+
+
 ### #1 http resource is a noun not a verb
 
  URL идентифицирует ресурс — некоторую разделяемую сущность. Файл — ресурс. Ручка, которая что-то ищет — ресурс. Вызов метода — не ресурс. Если вы хотите шарахнуть из пушки по Луне, то вот так делать не надо:
