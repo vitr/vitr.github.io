@@ -16,10 +16,18 @@ published: false
 ---
 
 
+
 ### Sublime Text Customization
 
 get Sublime Text 3 http://www.sublimetext.com/3
 get Package Control https://packagecontrol.io/installation
+Material theme https://github.com/equinusocio/material-theme
+shift+command+P -> Package Control: Install Package -> Material Theme
+Package Control: Install Package -> Coloursublime
+Coloursublime: Install Theme -> Facebook
+Package Control: Install Package -> PackageResourceViewer
+
+
 
 
 
