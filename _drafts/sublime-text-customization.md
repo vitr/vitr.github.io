@@ -26,7 +26,7 @@ shift+command+P -> Package Control: Install Package -> Material Theme
 Package Control: Install Package -> Coloursublime
 Coloursublime: Install Theme -> Facebook
 Package Control: Install Package -> PackageResourceViewer
-
+PackageResourceViewer: Extract Package -> Material Theme
 
 
 
