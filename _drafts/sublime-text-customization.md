@@ -31,6 +31,7 @@ PackageResourceViewer: Extract Package -> Material Theme
 
 for Win:
 sublime/Data/Packages/User/Preferences.sublime-settings
+sublime/Data/Packages/Material Theme/Material-Theme-Darker.sublime-theme
 
 
 http://input.fontbureau.com/info/
