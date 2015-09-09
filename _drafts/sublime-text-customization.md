@@ -17,6 +17,7 @@ published: false
 
 
 
+
 ### Sublime Text Customization
 
 get Sublime Text 3 http://www.sublimetext.com/3
@@ -28,7 +29,8 @@ Coloursublime: Install Theme -> Facebook
 Package Control: Install Package -> PackageResourceViewer
 PackageResourceViewer: Extract Package -> Material Theme
 
-
+for Win:
+sublime/Data/Packages/User/Preferences.sublime-settings
 
 
 http://input.fontbureau.com/info/
