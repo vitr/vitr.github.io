@@ -18,6 +18,7 @@ published: false
 
 
 
+
 ### Sublime Text Customization
 
 get Sublime Text 3 http://www.sublimetext.com/3
@@ -36,6 +37,7 @@ sublime/Data/Packages/Colorsublime - Themes/Facebook.tmTheme
 
 for Mac:
 ---paths to be here---
+~/Library/Application Support/Sublime Text 3/Packages/Colorsublime - Themes/Facebook.tmTheme
 
 
 
