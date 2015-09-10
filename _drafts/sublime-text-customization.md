@@ -35,6 +35,36 @@ sublime/Data/Packages/Material Theme/Material-Theme-Darker.sublime-theme
 sublime/Data/Packages/Colorsublime - Themes/Facebook.tmTheme
 
 
+
+
+
+
+
+### Tips
+
+
+
+Into Preferences > Settings - Users
+File : Preferences.sublime-settings
+
+Write this :
+
+    "show_encoding" : true,
+
+It's explain on the release note date 17 December 2013. Build 3059. Official site Sublime Text 3
+
+ 8
+down vote
+	
+
+I can't set "UTF-8 with BOM" in the corner button either, but I can change it from the menu bar.
+
+"File"->"Save with encoding"->"UTF-8 with BOM"
+
+
+
+
+
 http://input.fontbureau.com/info/
 
 Readability, Writability
