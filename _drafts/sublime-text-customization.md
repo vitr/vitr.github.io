@@ -35,14 +35,12 @@ sublime/Data/Packages/Material Theme/Material-Theme-Darker.sublime-theme
 sublime/Data/Packages/Colorsublime - Themes/Facebook.tmTheme
 
 for Mac:
-
+---paths to be here---
 
 
 
 
 ### Tips
-
-
 
 Into Preferences > Settings - Users
 File : Preferences.sublime-settings
