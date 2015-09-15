@@ -5,6 +5,7 @@ published: false
 
 
 
+
 ## My Mac OS X Essential Apps
 
 http://www.mucommander.com/index.php
@@ -25,3 +26,4 @@ iterm2
 https://www.iterm2.com/
 http://lifehacker.com/5857046/the-best-terminal-emulator-for-mac-os-x
 
+clipboard manager
