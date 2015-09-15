@@ -4,6 +4,7 @@ published: false
 
 
 
+
 ## My Mac OS X Essential Apps
 
 http://www.mucommander.com/index.php
@@ -20,4 +21,5 @@ Description
 Caffeine is a tiny program that puts an icon in the right side of your menu bar. Click it to prevent your Mac from automatically going to sleep, dimming the screen or starting screen savers. Click it again to go back. Right-click (or ⌘-click) the icon to show the menu.
 https://itunes.apple.com/au/app/caffeine/id411246225?mt=12
 
-xterm 2
+iterm2
+https://www.iterm2.com/
