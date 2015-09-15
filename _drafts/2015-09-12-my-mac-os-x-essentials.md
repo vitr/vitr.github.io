@@ -23,3 +23,5 @@ https://itunes.apple.com/au/app/caffeine/id411246225?mt=12
 
 iterm2
 https://www.iterm2.com/
+http://lifehacker.com/5857046/the-best-terminal-emulator-for-mac-os-x
+
