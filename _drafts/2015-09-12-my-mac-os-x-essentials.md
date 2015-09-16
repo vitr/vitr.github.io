@@ -6,7 +6,10 @@ published: false
 
 
 
+
 ## My Mac OS X Essential Apps
+
+https://github.com/iCHAIT/awesome-osx
 
 http://www.mucommander.com/index.php
 
