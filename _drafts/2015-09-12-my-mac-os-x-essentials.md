@@ -29,4 +29,5 @@ iterm2
 https://www.iterm2.com/
 http://lifehacker.com/5857046/the-best-terminal-emulator-for-mac-os-x
 
-clipboard manager
+clipboard manager ???
+http://www.clipmenu.com/ ???
