@@ -1,4 +1,8 @@
 ---
+tags:
+    - jekyll
+categories: 
+    - sublime    
 published: false
 ---
 
