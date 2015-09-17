@@ -1,10 +1,11 @@
 ---
-tags:
-    - jekyll
+tags: 
+  - jekyll
 categories: 
-    - sublime    
+  - jekyll
 published: false
 ---
+
 
 
 ## A New Post
