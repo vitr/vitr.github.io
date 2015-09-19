@@ -6,9 +6,10 @@ tags:
 
 
 
+
 ## Consisten Code Style
 
-Helps developers maintain consistent coding styles between different editors
+Helps developers maintain consistent coding styles between different editors/IDEs
 
 across varios text editors
 http://editorconfig.org/
