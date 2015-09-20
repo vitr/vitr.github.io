@@ -22,3 +22,4 @@ Sublime Text
 https://github.com/sindresorhus/editorconfig-sublime#readme
 
 https://github.com/FriendsOfPHP/PHP-CS-Fixer
+http://cs.sensiolabs.org/
