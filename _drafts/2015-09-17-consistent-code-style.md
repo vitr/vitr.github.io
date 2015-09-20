@@ -7,6 +7,7 @@ tags:
 
 
 
+
 ## Consisten Code Style
 
 Helps developers maintain consistent coding styles between different editors/IDEs
@@ -19,3 +20,5 @@ https://www.jetbrains.com/phpstorm/help/configuring-code-style.html#d910502e206
 
 Sublime Text
 https://github.com/sindresorhus/editorconfig-sublime#readme
+
+https://github.com/FriendsOfPHP/PHP-CS-Fixer
