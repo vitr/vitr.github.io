@@ -10,6 +10,7 @@ tags:
 
 
 
+
 ## Consisten Code Style
 
 Helps developers maintain consistent coding styles between different editors/IDEs
@@ -32,3 +33,6 @@ If you are already using PHP_CodeSniffer to identify coding standards problems i
 
 
 take a look at Laravel code
+3 spaces shorter
+like this one
+every line
