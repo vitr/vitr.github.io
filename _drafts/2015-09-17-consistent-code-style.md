@@ -11,6 +11,7 @@ tags:
 
 
 
+
 ## Consisten Code Style
 
 Helps developers maintain consistent coding styles between different editors/IDEs
@@ -36,3 +37,7 @@ take a look at Laravel code
 3 spaces shorter
 like this one
 every line
+
+some this
+http://antjanus.com/blog/daily-gibberish/best-comment-separator/
+
