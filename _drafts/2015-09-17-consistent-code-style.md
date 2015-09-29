@@ -12,12 +12,16 @@ tags:
 
 
 
+
 ## Consisten Code Style
 
 Helps developers maintain consistent coding styles between different editors/IDEs
 
 across varios text editors
 http://editorconfig.org/
+
+file wich contains all the setting
+.editorconfig
 
 PHPStorm
 https://www.jetbrains.com/phpstorm/help/configuring-code-style.html#d910502e206
@@ -40,4 +44,3 @@ every line
 
 some this
 http://antjanus.com/blog/daily-gibberish/best-comment-separator/
-
