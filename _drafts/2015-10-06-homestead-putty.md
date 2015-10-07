@@ -2,6 +2,7 @@
 published: false
 ---
 
+
 ## Using vagrant putty plugin with homestead
 
 The putty plugin for vagrant
@@ -13,3 +14,6 @@ SET VAGRANT_DOTFILE_PATH=XXX && vagrant putty
 path to your homestead .vagrant file (in your home dir)
 XXX = ~/.homestead\.vagrant
 **SET VAGRANT_DOTFILE_PATH=~/.homestead\.vagrant && vagrant putty**
+
+create the putty command here
+https://github.com/vitr/homestead-putty
