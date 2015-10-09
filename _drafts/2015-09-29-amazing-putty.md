@@ -8,6 +8,7 @@ published: false
 
 
 
+
 ![AmazingPutty.png]({{site.baseurl}}/_drafts/AmazingPutty.png)
 ## Amazing Putty
 
@@ -26,4 +27,4 @@ with mc support
 
 http://austringer.net/wp/index.php/2008/06/07/mac-os-x-and-midnight-commander-the-missing-insert-key/comment-page-2/
 
-CTRL+T instead of insert (it actually works!)
+CTRL+T instead of insert (it actually works!) for selecting files/folders
