@@ -12,8 +12,11 @@ published: false
 
 
 
-![AmazingPutty.png]({{site.baseurl}}/_drafts/AmazingPutty.png) - the screenshot
+
 ## Notes on Putty
+
+this is how it should look
+![AmazingPutty.png]({{site.baseurl}}/_drafts/AmazingPutty.png) - the screenshot
 
 
 http://www.linuxtechi.com/install-putty-in-ubuntu/ 
