@@ -11,11 +11,12 @@ published: false
 
 
 
-![AmazingPutty.png]({{site.baseurl}}/_drafts/AmazingPutty.png)
+
+![AmazingPutty.png]({{site.baseurl}}/_drafts/AmazingPutty.png) - the screenshot
 ## Notes on Putty
 
 
-http://www.linuxtechi.com/install-putty-in-ubuntu/
+http://www.linuxtechi.com/install-putty-in-ubuntu/ 
 System Admins who had worked on Windows Operating system, surely they have used putty software to ssh UNIX like systems. When they are migrated to Ubuntu Desktop , they might require putty to manage their UNIX boxes.
 
 PuTTY is the most popular Windows SSH client. It supports flexible terminal setup, mid-session reconfiguration using Ctrl-rightclick, multiple X11 authentication protocols, and various other interesting things not provided by ssh in an xterm.
