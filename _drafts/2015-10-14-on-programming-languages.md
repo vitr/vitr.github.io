@@ -11,4 +11,4 @@ Good languages help evolve your approach to programming; LISP shows you the idea
 http://programmers.stackexchange.com/questions/24542/choosing-a-functional-programming-language
 
 swift
-http://www.runswiftlang.com/learn
+https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1
