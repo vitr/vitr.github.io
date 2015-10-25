@@ -4,6 +4,7 @@ published: false
 
 
 
-## Aglio - documentation generator
+
+## Aglio - documentation generator for Api Blueprint
 
 https://github.com/danielgtaylor/aglio
