@@ -7,6 +7,7 @@ published: false
 
 
 
+
 ## My Mac OS X Essential Apps
 
 https://github.com/iCHAIT/awesome-osx
@@ -30,4 +31,4 @@ https://www.iterm2.com/
 http://lifehacker.com/5857046/the-best-terminal-emulator-for-mac-os-x
 
 clipboard manager ???
-http://www.clipmenu.com/ ???
+http://www.clipmenu.com/ Clipboard Manager for Mac OS X
