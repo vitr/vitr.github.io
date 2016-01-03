@@ -8,11 +8,17 @@ published: false
 
 
 
+
 ## My Mac OS X Essential Apps
 
 https://github.com/iCHAIT/awesome-osx
 
-http://www.mucommander.com/index.php
+http://www.mucommander.com/index.php -- abandoned, use the app from app store
+
+Alcatraz | The Package manager for Xcode
+http://alcatraz.io/
+
+
 
 
 
