@@ -18,6 +18,7 @@ Commander One
 Free dual pane file manager for Mac
 http://mac.eltima.com/file-manager.html
  	Approved by Christian Ghisler as Total Commander for Mac
+    http://mac.eltima.com/totalcommander-mac.html
 
 
 http://www.mucommander.com/index.php -- abandoned, use the app from app store
