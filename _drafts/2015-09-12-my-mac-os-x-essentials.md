@@ -9,9 +9,16 @@ published: false
 
 
 
+
 ## My Mac OS X Essential Apps
 
 https://github.com/iCHAIT/awesome-osx
+
+Commander One
+Free dual pane file manager for Mac
+http://mac.eltima.com/file-manager.html
+ 	Approved by Christian Ghisler as Total Commander for Mac
+
 
 http://www.mucommander.com/index.php -- abandoned, use the app from app store
 
