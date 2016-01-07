@@ -1,19 +1,24 @@
 ---
-layout:     post
-title:      HTTP do it right
-date:       2015-09-03 15:31:19
-author:     Vitaliy Ryepnoy
-summary:    HTTP and REST tips.
+layout: post
+title: HTTP do it right
+date: {}
+author: Vitaliy Ryepnoy
+summary: HTTP and REST tips.
 categories: 
- - http
- - rest
-thumbnail:  heart
-tags:
- - welcome
- - to
- - carte
- - noire
+  - http
+  - rest
+thumbnail: heart
+tags: 
+  - welcome
+  - to
+  - carte
+  - noire
+published: true
 ---
+
+
+HTTP & REST Principles
+
 
 Organising endpoints
 URLs identify resources, resources are some entities. A file is a resource, a user is a resource. Calling a method isn't a resource.
