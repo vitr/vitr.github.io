@@ -17,6 +17,7 @@ published: true
 ---
 
 
+
 HTTP & REST Principles
 
 
@@ -97,18 +98,12 @@ http://w3ctag.github.io/capability-urls
 
 ### #1 http resource is a noun not a verb
 
- URL идентифицирует ресурс — некоторую разделяемую сущность. Файл — ресурс. Ручка, которая что-то ищет — ресурс. Вызов метода — не ресурс. Если вы хотите шарахнуть из пушки по Луне, то вот так делать не надо:
-
-GET /?method=шарахнуть&to=Луна
-
-
-Заведите ресурс «шарахалка», и тогда у вас всё будет логично:
-
-POST /шарахалка/?to=Луна
-
-
-
-Почему POST, а не GET? Читай ниже.
+URL identifies a resource, a data entity. A file is a resource, a handle is resource, a method call isn't a resource.
+If you want to clean your car, don't do this like this
+GET /?method=clean&target=myCar
+better make a resource called **cleaner**, it will make more sense
+POST /cleaner/?target=myCar
+Wait, POST, why not GET ? read further
 
 
 ### #2 organise hierarchical data in path and filters in query
