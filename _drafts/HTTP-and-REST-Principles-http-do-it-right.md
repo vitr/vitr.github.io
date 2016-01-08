@@ -100,9 +100,13 @@ http://w3ctag.github.io/capability-urls
 
 URL identifies a resource, a data entity. A file is a resource, a handle is resource, a method call isn't a resource.
 If you want to clean your car, don't do this like this
-GET /?method=clean&target=myCar
+
+    GET /?method=clean&target=myCar
+
 better make a resource called **cleaner**, it will make more sense
-POST /cleaner/?target=myCar
+
+    POST /cleaner/?target=myCar
+
 Wait, POST, why not GET ? read further
 
 
