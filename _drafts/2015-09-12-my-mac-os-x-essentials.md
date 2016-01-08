@@ -2,14 +2,7 @@
 published: false
 ---
 
-
-
-
-
-
-
-
-## My Mac OS X Essential Apps
+## Mac OS Essential Apps
 
 https://github.com/iCHAIT/awesome-osx
 
