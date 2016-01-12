@@ -96,6 +96,8 @@ http://tools.ietf.org/html/rfc5789
 http://www.w3.org/TR/webarch
 http://w3ctag.github.io/capability-urls
 
+##15 trivial facts about correct usage of the HTTP protocol
+
 
 ### #1 http resource is a noun not a verb
 
@@ -214,7 +216,7 @@ Everything above exists in RFC's and other standards as recommendations. It does
         
         
         (В разработке последнего документа ваш покорный слуга принимал определённое участие.)             
- 
+original 
  [http://habrahabr.ru/company/yandex/blog/265569/]
  
  
