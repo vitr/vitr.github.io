@@ -2,6 +2,7 @@
 published: false
 ---
 
+
 ## Mac OS Essential Apps
 
 https://github.com/iCHAIT/awesome-osx
@@ -19,9 +20,6 @@ Alcatraz | The Package manager for Xcode
 http://alcatraz.io/
 
 
-
-
-
 http://lifehacker.com/lifehacker-pack-for-mac-our-list-of-the-essential-mac-635303836
 
 
@@ -32,7 +30,7 @@ Description
 Caffeine is a tiny program that puts an icon in the right side of your menu bar. Click it to prevent your Mac from automatically going to sleep, dimming the screen or starting screen savers. Click it again to go back. Right-click (or ⌘-click) the icon to show the menu.
 https://itunes.apple.com/au/app/caffeine/id411246225?mt=12
 
-iterm2
+iTerm2 - Mac OS Terminal Replacement
 https://www.iterm2.com/
 http://lifehacker.com/5857046/the-best-terminal-emulator-for-mac-os-x
 
