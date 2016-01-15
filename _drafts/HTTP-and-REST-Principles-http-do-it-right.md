@@ -18,9 +18,7 @@ published: true
 
 
 
-
-
-HTTP & REST Principles
+##HTTP & REST Principles
 
 
 Organising endpoints
