@@ -17,9 +17,7 @@ published: true
 ---
 
 
-
 ##HTTP & REST Principles
-
 
 Organising endpoints
 URLs identify resources, resources are some entities. A file is a resource, a user is a resource. Calling a method isn't a resource.
