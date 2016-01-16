@@ -4,15 +4,6 @@ tags:
   - "don't work"
 ---
 
-
-
-
-
-
-
-
-
-
 ## Consisten Code Style
 
 Helps developers maintain consistent coding styles between different editors/IDEs
@@ -42,5 +33,5 @@ take a look at Laravel code
 like this one
 every line
 
-some this
+something about comments 
 http://antjanus.com/blog/daily-gibberish/best-comment-separator/
