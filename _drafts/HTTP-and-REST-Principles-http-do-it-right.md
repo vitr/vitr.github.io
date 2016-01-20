@@ -17,6 +17,7 @@ published: true
 ---
 
 
+
 ##HTTP & REST Principles
 
 Organising endpoints
@@ -113,7 +114,9 @@ Wait, POST, why not GET? Please, read further
 ### #2 organise hierarchical data in path and filters in query
 The URL includes scheme, host, path, query and fragment.
 
-URL состоит из схемы (протокола), хоста, пути (path), запроса (query) и фрагмента. Путь используется для организации иерархических ресурсов, запрос — для неиерархических ресурсов и для параметров операции. Фрагмент идентифицирует подчинённый ресурс, не имеющий прямого URL.
+The path is used for hierarchically organised resources, the query is used for non-hierarchically organised resourses and operation parameters.
+
+Путь используется для организации иерархических ресурсов, запрос — для неиерархических ресурсов и для параметров операции. Фрагмент идентифицирует подчинённый ресурс, не имеющий прямого URL.
 
 Scheme      Host                 Path               Query      Fragment
   ↓           ↓                    ↓                  ↓            ↓
