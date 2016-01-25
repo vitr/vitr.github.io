@@ -3,7 +3,12 @@ published: false
 ---
 
 
-## Mac OS Essential Apps
+
+## Mac OS Essential Apps and Tips
+
+
+###Minimize and Hide All Windows
+By combining the **Hide All**(**Command+H**) shortcut with the **minimize**(**Command+M**) keyboard shortcut, you can use a third **Minimize and Hide All** shortcut by hitting the **Command+Option+H+M** keys together. 
 
 https://github.com/iCHAIT/awesome-osx
 
