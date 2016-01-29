@@ -19,6 +19,7 @@ published: true
 
 
 
+
 ##HTTP & REST Principles
 
 Organising endpoints
@@ -119,10 +120,13 @@ The path is used for hierarchically organised resources, the query is used for n
 
 Scheme      Host                 Path               Query      Fragment
   ↓           ↓                    ↓                  ↓            ↓
-http://nyashnye-kotiki.xxx/breeds/maine-coon/?deliver_to=Moscow#photo
+http://pretty-kittens.com/breeds/maine-coon/?deliver_to=London#photo
 
+If you have on your site "pretty-kittens" a breed catalogue, it's logic to organize the catalogue in path parts, as every kitten belongs to one breed.
+In cotrary, you can deliver a kitten to different ciies, therefore the "deliver to city XYZ" filter shoould be created in the query.
 
-Если на вашем сайте «Няшные котики» есть каталог по породам, то его вполне логично организовать в виде частей path, поскольку каждый котик принадлежит ровно к одной породе. А вот доставлять одного котика можно в несколько городов, поэтому фильтр «с доставкой в город N» следует организовать через query.
+Если на вашем сайте «Няшные котики» есть каталог по породам, то его вполне логично организовать в виде частей path, поскольку каждый котик принадлежит ровно к одной породе. 
+А вот доставлять одного котика можно в несколько городов, поэтому фильтр «с доставкой в город N» следует организовать через query.
 
 ### #3 apply http verb to the url
 
