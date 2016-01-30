@@ -17,10 +17,6 @@ published: true
 ---
 
 
-
-
-
-
 ##HTTP & REST Principles
 
 Organising endpoints
@@ -131,6 +127,7 @@ In cotrary, you can deliver a kitten to different ciies, therefore the "deliver 
 Обращение по HTTP состоит из применения метода (глагола) к URL. Результатом такого применения должно быть — сюрприз-сюрприз! — то, что в глаголе написано. То есть GET возвращает представление ресурса, DELETE удаляет и т.п.
 
 ### #4 methods GET, HEAD, OPTION don't change the state of a resource
+Methods GET, HEAD, OPTIONS are safe.
 Методы GET, HEAD, OPTIONS — безопасные. Предполагается, что вызов этих методов состояния ресурса не изменяет. Поэтому многие сетевые агенты — такие, например, как префетчер ссылок в браузере или мессенджере — считают себя вправе по таким ссылкам ходить без явного волеизъявления пользователя. ИЧСХ, никаких стандартов не нарушают.
 
 ### #5 methods GET ? HEAD could be cached, OPTIONS, POST, PUT, PATCH, DELETE couldn't
