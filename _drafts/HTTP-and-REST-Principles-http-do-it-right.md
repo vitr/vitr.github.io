@@ -17,6 +17,7 @@ published: true
 ---
 
 
+
 ##HTTP & REST Principles
 
 Organising endpoints
@@ -123,6 +124,7 @@ If you have on your site "pretty-kittens" a breed catalogue, it's logic to organ
 In cotrary, you can deliver a kitten to different ciies, therefore the "deliver to city XYZ" filter shoould be created in the query.
 
 ### #3 apply http verb to the url
+An HTTP call is about applying a method (a verb) to URL.
 
 Обращение по HTTP состоит из применения метода (глагола) к URL. Результатом такого применения должно быть — сюрприз-сюрприз! — то, что в глаголе написано. То есть GET возвращает представление ресурса, DELETE удаляет и т.п.
 
