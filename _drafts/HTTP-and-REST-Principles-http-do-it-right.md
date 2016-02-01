@@ -18,6 +18,7 @@ published: true
 
 
 
+
 ##HTTP & REST Principles
 
 Organising endpoints
@@ -124,9 +125,7 @@ If you have on your site "pretty-kittens" a breed catalogue, it's logic to organ
 In cotrary, you can deliver a kitten to different ciies, therefore the "deliver to city XYZ" filter shoould be created in the query.
 
 ### #3 apply http verb to the url
-An HTTP call is about applying a method (a verb) to URL.
-
-Обращение по HTTP состоит из применения метода (глагола) к URL. Результатом такого применения должно быть — сюрприз-сюрприз! — то, что в глаголе написано. То есть GET возвращает представление ресурса, DELETE удаляет и т.п.
+An HTTP call is about applying a method (a verb) to URL. The result of such applying - surprise, surprise - what is the verb says, i.e. GET returns a resource view, DELETE deletes a resourse, etc. 
 
 ### #4 methods GET, HEAD, OPTION don't change the state of a resource
 Methods GET, HEAD, OPTIONS are safe.
