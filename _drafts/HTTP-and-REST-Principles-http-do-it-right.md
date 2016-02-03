@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTTP: Do It Right"
+title: "HTTP Potocol - Do It Right"
 date: {}
 author: Vitaliy Ryepnoy
 summary: HTTP and REST tips.
@@ -15,6 +15,7 @@ tags:
   - noire
 published: true
 ---
+
 
 
 Here are some good quotes.
