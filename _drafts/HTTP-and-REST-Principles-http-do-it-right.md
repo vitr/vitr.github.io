@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTTP do it right
+title: "HTTP: Do It Right"
 date: {}
 author: Vitaliy Ryepnoy
 summary: HTTP and REST tips.
@@ -15,6 +15,20 @@ tags:
   - noire
 published: true
 ---
+
+
+quote: "If you're going to do something, then do it right." 
+
+and another one:
+
+If you don’t have time to do it right, when will you have time to do it over?
+
+~ John Wooden
+
+
+from the comments  
+http://empoweredquotes.com/2008/06/30/if-you-don%E2%80%99t-have-time-to-do-it-right-when-will-you-have-time-to-do-it-over/    
+It is amazing how well this applies to **software engineering**, home improvement and auto repairs!
 
 
 
