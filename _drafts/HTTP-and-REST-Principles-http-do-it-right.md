@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTTP: Do It Right"
+title: "HTTP - Do It Right"
 date: {}
 author: Vitaliy Ryepnoy
 summary: HTTP and REST tips.
@@ -15,6 +15,7 @@ tags:
   - noire
 published: true
 ---
+
 
 
 quote: "If you're going to do something, then do it right." 
