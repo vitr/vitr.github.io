@@ -28,9 +28,8 @@ If you don’t have time to do it right, when will you have time to do it over?
 
 ~ John Wooden
 
-
-from the comments  
-http://empoweredquotes.com/2008/06/30/if-you-don%E2%80%99t-have-time-to-do-it-right-when-will-you-have-time-to-do-it-over/    
+<sub><sup>from the comments (here [http://empoweredquotes.com/2008/06/30/if-you-don%E2%80%99t-have-time-to-do-it-right-when-will-you-have-time-to-do-it-over/ ](http://empoweredquotes.com/2008/06/30/if-you-don%E2%80%99t-have-time-to-do-it-right-when-will-you-have-time-to-do-it-over/))</sup></sub>
+   
 It is amazing how well this applies to **software engineering**, home improvement and auto repairs!
 
 
