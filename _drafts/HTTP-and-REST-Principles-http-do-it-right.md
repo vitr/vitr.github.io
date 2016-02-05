@@ -145,7 +145,7 @@ In cotrary, you can deliver a kitten to different ciies, therefore the "deliver 
 An HTTP call is about applying a method (a verb) to URL. The result of such applying - surprise, surprise - what is the verb says, i.e. GET returns a resource view, DELETE deletes a resourse, etc. 
 
 ### #4 methods GET, HEAD, OPTION don't change the state of a resource
-Methods GET, HEAD, OPTIONS are safe. Calling these methods doesn't change a resourse state.
+Methods GET, HEAD, OPTIONS are safe. Calling these methods does not n't change a resourse state.
 
 Методы GET, HEAD, OPTIONS — безопасные. Предполагается, что вызов этих методов состояния ресурса не изменяет. Поэтому многие сетевые агенты — такие, например, как префетчер ссылок в браузере или мессенджере — считают себя вправе по таким ссылкам ходить без явного волеизъявления пользователя. ИЧСХ, никаких стандартов не нарушают.
 
