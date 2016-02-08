@@ -19,6 +19,7 @@ published: true
 
 
 
+
 Here are some good quotes.
 
 quote: "If you're going to do something, then do it right." 
@@ -150,6 +151,7 @@ Methods GET, HEAD, OPTIONS are safe. Calling these methods does not change a res
 Методы GET, HEAD, OPTIONS — безопасные. Предполагается, что вызов этих методов состояния ресурса не изменяет. Поэтому многие сетевые агенты — такие, например, как префетчер ссылок в браузере или мессенджере — считают себя вправе по таким ссылкам ходить без явного волеизъявления пользователя. ИЧСХ, никаких стандартов не нарушают.
 
 ### #5 methods GET ? HEAD could be cached, OPTIONS, POST, PUT, PATCH, DELETE couldn't
+By default methods GET and HEAD are cacheable 
 
 По умолчанию методы GET и HEAD кэшируются, OPTIONS, POST, PUT, PATCH, DELETE — нет. Поэтому если вы шарахнули по Луне методом POST, вы можете быть (почти) уверены, что этот запрос выполнится. Если вы шарахаете методом GET, какой-нибудь промежуточный прокси может ВНЕЗАПНО отдать вам ответ из кэша, и шарах в реальности не произойдёт.
   
