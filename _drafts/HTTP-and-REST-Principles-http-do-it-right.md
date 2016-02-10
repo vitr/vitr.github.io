@@ -117,7 +117,7 @@ http://w3ctag.github.io/capability-urls
 URL identifies a resource, a data entity. A file is a resource, a handle is resource, a method call isn't a resource.
 If you want to clean your car, don't do it like this
 
-    GET /?method=clean&target=myCar
+    GET /?method=clean&target=myCar  (hit the button???)
 
 better make a resource called **cleaner**, it will make more sense
 
@@ -148,6 +148,7 @@ Methods GET, HEAD, OPTIONS are safe. Calling these methods does not change a res
 
 ### #5 methods GET ? HEAD could be cached, OPTIONS, POST, PUT, PATCH, DELETE couldn't
 Methods GET and HEAD are cacheable by default, but OPTIONS,POST,PUT, PATCH, DELETE are not. Therefore if you
+шарахнули по Луне - click a button, button clicker, hit a button.
 
 По умолчанию методы GET и HEAD кэшируются, OPTIONS, POST, PUT, PATCH, DELETE — нет. Поэтому если вы шарахнули по Луне методом POST, вы можете быть (почти) уверены, что этот запрос выполнится. Если вы шарахаете методом GET, какой-нибудь промежуточный прокси может ВНЕЗАПНО отдать вам ответ из кэша, и шарах в реальности не произойдёт.
   
