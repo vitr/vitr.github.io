@@ -18,8 +18,6 @@ published: true
 
 
 
-
-
 Here are some good quotes.
 
 quote: "If you're going to do something, then do it right." 
@@ -33,8 +31,6 @@ If you don’t have time to do it right, when will you have time to do it over?
 <sub><sup>from the comments (here [http://empoweredquotes.com/2008/06/30/if-you-don%E2%80%99t-have-time-to-do-it-right-when-will-you-have-time-to-do-it-over/ ](http://empoweredquotes.com/2008/06/30/if-you-don%E2%80%99t-have-time-to-do-it-right-when-will-you-have-time-to-do-it-over/))</sup></sub>
    
 It is amazing how well this applies to **software engineering**, home improvement and auto repairs!
-
-
 
 
 ##HTTP & REST Principles
@@ -151,7 +147,7 @@ Methods GET, HEAD, OPTIONS are safe. Calling these methods does not change a res
 Методы GET, HEAD, OPTIONS — безопасные. Предполагается, что вызов этих методов состояния ресурса не изменяет. Поэтому многие сетевые агенты — такие, например, как префетчер ссылок в браузере или мессенджере — считают себя вправе по таким ссылкам ходить без явного волеизъявления пользователя. ИЧСХ, никаких стандартов не нарушают.
 
 ### #5 methods GET ? HEAD could be cached, OPTIONS, POST, PUT, PATCH, DELETE couldn't
-By default methods GET and HEAD are cacheable 
+Methods GET and HEAD are cacheable by default, but OPTIONS,POST,PUT, PATCH, DELETE are not. Therefore if you
 
 По умолчанию методы GET и HEAD кэшируются, OPTIONS, POST, PUT, PATCH, DELETE — нет. Поэтому если вы шарахнули по Луне методом POST, вы можете быть (почти) уверены, что этот запрос выполнится. Если вы шарахаете методом GET, какой-нибудь промежуточный прокси может ВНЕЗАПНО отдать вам ответ из кэша, и шарах в реальности не произойдёт.
   
