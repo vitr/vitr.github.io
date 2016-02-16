@@ -22,6 +22,7 @@ published: true
 
 
 
+
 Here are some good quotes.
 
 quote: "If you're going to do something, then do it right." 
@@ -160,7 +161,7 @@ Methods GET and HEAD are cacheable by default, but OPTIONS,POST,PUT, PATCH, DELE
 ### #6 Операции GET, PUT, DELETE симметричны. PUT кладёт нечто по URL-у (создавая новый ресурс или перезаписывая старый), GET по этому URL-у возвращает представление того, что положил PUT, DELETE удаляет ресурс.
        Метод HEAD синонимичен по семантике методу GET, но не возвращает тело ответа, а только его заголовки (метаинформацию о ресурсе).
        
-### PODT is used if you don't have
+### POST is used if you don't have a specific URL for applying the acation. For example, if a user writes a new post on the forum thread, he can calculate the id himself and do
 
 #7 POST используется в том случае, если у вас нет URL, к которому вы хотите применить операцию. Например, если пользователь пишет новое сообщение в тредик на форуме, он может сам вычислить его id и сделать:
        
