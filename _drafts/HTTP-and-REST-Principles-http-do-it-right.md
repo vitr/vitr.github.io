@@ -17,7 +17,6 @@ published: true
 ---
 
 
-
 Here are some good quotes.
 
 quote: "If you're going to do something, then do it right." 
@@ -208,7 +207,7 @@ Methods GET and HEAD are cacheable by default, but OPTIONS,POST,PUT, PATCH, DELE
         пользователь, создавший Capability URL (например, расшаривший документ), должен иметь возможность сделать обратную операцию, т.е. отозвать URL;
         Capability URLs должны протухать со временем; чем опаснее предоставляемый доступ, тем короче должен быть срок жизни URL.
                 
-### #14
+### #14 The 'secret' pages themselves must be protected from content exposing by other parties(???)
 #14  Наконец, сами «секретные» страницы должны быть защищены от сливания данных сторонним агентам:
         
             на них не должно быть никаких third-party скриптов и картинок, желательно — на уровне CSP;
