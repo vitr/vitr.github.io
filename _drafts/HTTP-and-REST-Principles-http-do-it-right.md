@@ -226,6 +226,8 @@ code 401 Unathorized must be accompanied by WWW-Authenticate and therefore appli
 
 Everything above exists in RFC's and other standards as recommendations. It doesn't force anyone to follow the recommendations. Everyone is free to build their API's even upon only GET requests, as long as their services work.
 
+Of course, you're free to design your service as you wish, but keep in mind that between your service
+
 
 Всё описанное выше существует в стандартах исключительно в форме рекомендации, и принудить кого-либо к строгому исполнению этих рекомендаций нельзя. 
 
