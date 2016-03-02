@@ -19,6 +19,7 @@ published: true
 
 
 
+
 Here are some good quotes.
 
 quote: "If you're going to do something, then do it right." 
@@ -227,6 +228,7 @@ code 401 Unathorized must be accompanied by WWW-Authenticate and therefore appli
 Everything above exists in RFC's and other standards as recommendations. It doesn't force anyone to follow the recommendations. Everyone is free to build their API's even upon only GET requests, as long as their services work.
 
 Of course, you're free to design your service as you wish, but keep in mind that there are many other network agents between your server and your client, even if they physically stay in the same datacenter. Here is the list of some of them - browsers, proxies, routers, HTTP-protocol inpmpementation in many programming languages and operation systems, providers DPI hardware, etc. All of these agents implement HTTP protocol with RFC in mind.
+If,suddenly, a client's browser has prefetched...
 
 
 Всё описанное выше существует в стандартах исключительно в форме рекомендации, и принудить кого-либо к строгому исполнению этих рекомендаций нельзя. 
