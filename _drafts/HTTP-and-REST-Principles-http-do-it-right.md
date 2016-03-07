@@ -16,7 +16,9 @@ tags:
 published: true
 ---
 
-Here are some good quotes.
+
+Here are some good quotes.:
+
 
 quote: "If you're going to do something, then do it right." 
 
