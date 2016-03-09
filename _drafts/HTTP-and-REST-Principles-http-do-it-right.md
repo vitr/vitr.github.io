@@ -107,7 +107,7 @@ http://tools.ietf.org/html/rfc5789
 http://www.w3.org/TR/webarch
 http://w3ctag.github.io/capability-urls
 
-##15 trivial facts about correct usage of the HTTP protocol
+## 15 trivial facts about correct usage of the HTTP protocol
 
 
 ### #1 http resource is a noun not a verb
