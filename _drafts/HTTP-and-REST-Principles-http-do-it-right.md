@@ -16,6 +16,7 @@ tags:
 published: true
 ---
 
+
 Here are some good quotes:
 quote: "If you're going to do something, then do it right." 
 
@@ -23,14 +24,14 @@ and another one:
 
 If you don’t have time to do it right, when will you have time to do it over?
 
-~ John Wooden
+_~ John Wooden_
 
 <sub><sup>from the comments (here [http://empoweredquotes.com/2008/06/30/if-you-don%E2%80%99t-have-time-to-do-it-right-when-will-you-have-time-to-do-it-over/ ](http://empoweredquotes.com/2008/06/30/if-you-don%E2%80%99t-have-time-to-do-it-right-when-will-you-have-time-to-do-it-over/))</sup></sub>
    
 It is amazing how well this applies to **software engineering**, home improvement and auto repairs!
 
 
-##HTTP & REST Principles
+# HTTP & REST Principles
 
 Organising endpoints
 URLs identify resources, resources are some entities. A file is a resource, a user is a resource. Calling a method isn't a resource.
