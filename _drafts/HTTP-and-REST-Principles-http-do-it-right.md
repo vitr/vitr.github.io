@@ -110,7 +110,7 @@ http://w3ctag.github.io/capability-urls
 ## 15 trivial facts about correct usage of the HTTP protocol
 
 
-### #1 http resource is a noun not a verb
+### 1 http resource is a noun not a verb
 
 URL identifies a resource, a data entity. A file is a resource, a handle is resource, a method call isn't a resource.
 If you want to clean your car, don't do it like this
@@ -124,7 +124,7 @@ better make a resource called **cleaner**, it will make more sense
 Wait, POST, why not GET? Please, read further
 
 
-### #2 organise hierarchical data in path and filters in query
+### 2 organise hierarchical data in path and filters in query
 The URL includes scheme, host, path, query and fragment.
 
 The path is used for hierarchically organised resources, the query is used for non-hierarchically organised resourses and operation parameters. The fragment identifies a subresource, which has no direct URL.
@@ -136,7 +136,7 @@ http://pretty-kittens.com/breeds/maine-coon/?deliver_to=London#photo
 If you have on your site "pretty-kittens" a breed catalogue, it's logic to organize the catalogue in path parts, as every kitten belongs to one breed.
 In cotrary, you can deliver a kitten to different ciies, therefore the "deliver to city XYZ" filter shoould be created in the query.
 
-### #3 apply http verb to the url
+### 3 apply http verb to the url
 An HTTP call is about applying a method (a verb) to URL. The result of such applying - surprise, surprise - what is the verb says, i.e. GET returns a resource view, DELETE deletes a resourse, etc. 
 
 ### #4 methods GET, HEAD, OPTION don't change the state of a resource
@@ -151,7 +151,7 @@ Methods GET and HEAD are cacheable by default, but OPTIONS,POST,PUT, PATCH, DELE
 По умолчанию методы GET и HEAD кэшируются, OPTIONS, POST, PUT, PATCH, DELETE — нет. Поэтому если вы шарахнули по Луне методом POST, вы можете быть (почти) уверены, что этот запрос выполнится. Если вы шарахаете методом GET, какой-нибудь промежуточный прокси может ВНЕЗАПНО отдать вам ответ из кэша, и шарах в реальности не произойдёт.
   
 ### #6 ????Operation GET, PUT, DELETE are symmetrical????  
-### #6 Операции GET, PUT, DELETE симметричны. PUT кладёт нечто по URL-у (создавая новый ресурс или перезаписывая старый), GET по этому URL-у возвращает представление того, что положил PUT, DELETE удаляет ресурс.
+Операции GET, PUT, DELETE симметричны. PUT кладёт нечто по URL-у (создавая новый ресурс или перезаписывая старый), GET по этому URL-у возвращает представление того, что положил PUT, DELETE удаляет ресурс.
        Метод HEAD синонимичен по семантике методу GET, но не возвращает тело ответа, а только его заголовки (метаинформацию о ресурсе).
        
 ### #7 POST is used if you don't have a specific URL for applying the acation. For example, if a user writes a new post on the forum thread, he can calculate the id himself and do
