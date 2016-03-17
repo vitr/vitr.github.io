@@ -228,6 +228,12 @@ Of course, you're free to design your service as you wish, but keep in mind that
 If,suddenly, a client's browser has prefetched...
 
 
+Bibliography:
+            www.rfc-editor.org/rfc/rfc2616.txt
+            tools.ietf.org/html/rfc5789
+            www.w3.org/TR/webarch
+            w3ctag.github.io/capability-urls
+
 Всё описанное выше существует в стандартах исключительно в форме рекомендации, и принудить кого-либо к строгому исполнению этих рекомендаций нельзя. 
 
 Я уже не первый раз рассказываю про всю эту тривию, и часто слышу в ответ «да плевать я на всё это хотел, придумали какой-то ненужной ерунды; как у меня работали все сервисы только на GET, так и дальше будут, мучайтесь со своими PUT-ами и DELETE-ми сами».
