@@ -16,6 +16,7 @@ tags:
 published: true
 ---
 
+
 Here are some good quotes:
 quote: "If you're going to do something, then do it right." 
 
@@ -183,7 +184,11 @@ For example, if a user writes a new post on the forum thread, he can calculate t
 
         
 ### #10 Working with HTTP statuses don't make the following mistakes
-code 401 Unathorized must be accompanied by WWW-Authenticate and therefore applied only when clien authenticates with HTTP, in all other cased you should use 403 Forbidden
+code 401 Unathorized must be accompanied by WWW-Authenticate and therefore applied only when clien authenticates with HTTP, in all other cased you should use 403 Forbidden   n nnnn
+
+code 3xx
+
+
 #10 Работая с HTTP-статусами, не наступите на популярные грабли:
         
             статус 401 Unauthorized обязан сопровождаться заголовком WWW-Authenticate и, таким образом, применим только тогда, когда клиент аутентифицируется посредством HTTP-аутентификации; во всех остальных случаях следует использовать 403 Forbidden;
