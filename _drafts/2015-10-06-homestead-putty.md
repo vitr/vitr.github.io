@@ -3,7 +3,9 @@ published: false
 ---
 
 
+
 ## Using vagrant putty plugin with homestead
+I'd prefer docker...
 
 The putty plugin for vagrant
 https://github.com/nickryand/vagrant-multi-putty
