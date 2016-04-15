@@ -21,7 +21,7 @@ stackoverflow_link: https://stackoverflow.com/users/4986182/vitr
 
 # Footer
 footer_left: "&lt;/&gt; on <a href=\"https://github.com/vitr/vitr.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
-footer_right: "<a href='http://carte-noire.jacobtomlinson.co.uk/' target='_blank'>Carte Noire</a> - original theme"
+footer_right: "original theme <a href='http://carte-noire.jacobtomlinson.co.uk/' target='_blank'>Carte Noire</a>"
 
 # Build settings
 markdown: kramdown
