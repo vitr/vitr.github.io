@@ -20,7 +20,7 @@ linkedin_link: https://au.linkedin.com/in/vitaliyr
 stackoverflow_link: https://stackoverflow.com/users/4986182/vitr
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-keyboard-o\"></i> and <i class=\"fa fa-hand-paper-o\"></i>"
+footer_left: "<a href='http://carte-noire.jacobtomlinson.co.uk/' target='_blank'>Carte Noire</a> - original theme"
 footer_right: "&lt;/&gt; on <a href=\"https://github.com/vitr/vitr.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
