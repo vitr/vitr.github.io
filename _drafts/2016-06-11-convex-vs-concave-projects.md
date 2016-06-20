@@ -3,7 +3,7 @@ published: false
 ---
 ## A New Post
 
-I like more concave projects like this
+I like more **convex** projects like this
 
 
 
